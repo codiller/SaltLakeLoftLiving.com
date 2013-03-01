@@ -1,0 +1,122 @@
+/*
+	Theme Name: Salt Lake Loft Living Custom Theme
+	Description: This custom theme was built using the Metro Child Theme from Studiopress.com.
+	Author: Top Left Creative, Inc. - Cody Martens
+	Author URI: http://www.topleftcreative.com
+
+	Template: genesis
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php 
+*/
+
+$red: #ef4f4f;
+$gray: #f5f5f5;
+$dark-gray: #333;
+
+@mixin ease {
+	-moz-transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+@mixin box {
+	background: $red;
+	color: white !important;
+	padding: .5rem;
+}
+
+.button {
+	@include box;
+	@include ease;
+	&:hover {
+		background: $dark-gray;
+	}
+	display: inline-block;
+	a {
+		color: white !important;
+		text-decoration: none;
+	}
+}
+
+.callout {
+	@include box;
+	a {
+		color: white !important;
+	}
+}
+
+.info {
+	color: $red;
+	font: {
+		size: 20px;
+		size: 1.25rem;
+		weight: 700;
+	}
+}
+
+.gc-cs-link {
+	color: $red !important;
+	text-decoration: none !important;
+}
+
+#header .widget-area {
+	text-align: right;
+	p.info {
+		margin-top: 16px;
+		margin-top: 1rem;
+	}
+	@media screen and (max-width: 800px) {
+		margin-bottom: 8px;
+		margin-bottom: .5rem;
+		text-align: center;
+	}
+}
+
+#content {
+	@media screen and (max-width: 800px) {
+		margin-bottom: 16px;
+		margin-bottom: 1rem;
+	}
+	h2 {
+		color: $red;
+	}
+}
+
+.post-single {
+	background: $gray;
+	margin-bottom: 16px;
+	margin-bottom: 1rem;
+	img {
+		width: 100%;
+	}
+	.post-text {
+		padding: 12px;
+		padding: .75rem;
+	}
+	.entry-title {
+		margin-bottom: 0 !important;
+	}
+	.read-more {
+		float: right;
+		margin-top: 12px;
+		margin-top: .75rem;
+	}
+}
+
+.unit-stats {
+	float: left;
+	margin-right: 1%;
+	text-align: center;
+	width: 24%;
+	@media screen and (max-width: 600px) {
+		width: 49%;
+	}
+	@media screen and (max-width: 350px) {
+		margin-right: 0;
+		width: 100%;
+	}
+	h3 {
+		border-bottom: $dark-gray 2px solid;
+	}
+}

@@ -1,0 +1,90 @@
+/*
+	Theme Name: Salt Lake Loft Living Custom Theme
+	Description: This custom theme was built using the Metro Child Theme from Studiopress.com.
+	Author: Top Left Creative, Inc. - Cody Martens
+	Author URI: http://www.topleftcreative.com
+
+	Template: genesis
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php 
+*/
+.button {
+  background: #ef4f4f;
+  color: white !important;
+  padding: .5rem;
+  -moz-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: inline-block; }
+  .button:hover {
+    background: #333333; }
+  .button a {
+    color: white !important;
+    text-decoration: none; }
+
+.callout {
+  background: #ef4f4f;
+  color: white !important;
+  padding: .5rem; }
+  .callout a {
+    color: white !important; }
+
+.info {
+  color: #ef4f4f;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 700; }
+
+.gc-cs-link {
+  color: #ef4f4f !important;
+  text-decoration: none !important; }
+
+#header .widget-area {
+  text-align: right; }
+  #header .widget-area p.info {
+    margin-top: 16px;
+    margin-top: 1rem; }
+  @media screen and (max-width: 800px) {
+    #header .widget-area {
+      margin-bottom: 8px;
+      margin-bottom: .5rem;
+      text-align: center; } }
+
+@media screen and (max-width: 800px) {
+  #content {
+    margin-bottom: 16px;
+    margin-bottom: 1rem; } }
+#content h2 {
+  color: #ef4f4f; }
+
+.post-single {
+  background: whitesmoke;
+  margin-bottom: 16px;
+  margin-bottom: 1rem; }
+  .post-single img {
+    width: 100%; }
+  .post-single .post-text {
+    padding: 12px;
+    padding: .75rem; }
+  .post-single .entry-title {
+    margin-bottom: 0 !important; }
+  .post-single .read-more {
+    float: right;
+    margin-top: 12px;
+    margin-top: .75rem; }
+
+.unit-stats {
+  float: left;
+  margin-right: 1%;
+  text-align: center;
+  width: 24%; }
+  @media screen and (max-width: 600px) {
+    .unit-stats {
+      width: 49%; } }
+  @media screen and (max-width: 350px) {
+    .unit-stats {
+      margin-right: 0;
+      width: 100%; } }
+  .unit-stats h3 {
+    border-bottom: #333333 2px solid; }
