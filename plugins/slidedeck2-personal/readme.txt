@@ -37,6 +37,10 @@ Where 1644 is the SlideDeck's ID. You can also see this code snippet when you sa
 
 
 == Changelog ==
+= 2.1.20130228 =
+* Fixing an issue with the O-Town and Fashion Lens JavaScript files
+* Lenses can now have no variations and the variation dropdown is correctly hidden
+
 = 2.1.20130219 =
 * Updating the version of plupload in anticipation of jQuery 1.9
 * Removing all calls to jQuery.browser or $.browser in anticipation of jQuery 1.9
@@ -348,6 +352,9 @@ Where 1644 is the SlideDeck's ID. You can also see this code snippet when you sa
 * Initial beta release.
 
 == Upgrade Notice ==
+= 2.1.20130228 =
+Fixing an issue with the O-Town and Fashion Lens JavaScript files
+
 = 2.1.20130219 =
 Preparing for jQuery 1.9, misc bug fixes
 

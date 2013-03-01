@@ -10,7 +10,7 @@ Create SlideDecks on your WordPress blogging platform. Manage SlideDeck content 
 
 == Description ==
 
-The SlideDeck 2 Developers Addon adds the ability to edit lenses, copy lenses as well as the ability to do raw HTML custom slides for your Custom SlideDecks. 
+The SlideDeck 2 Developers Addon adds the ability to edit lenses, copy lenses as well as the ability to do raw HTML custom slides for your Custom SlideDecks.
 
 **Requirements:** PHP5+, WordPress 3.3+, SlideDeck 2 Personal and SlideDeck 2 Professional
 
@@ -21,6 +21,9 @@ The SlideDeck 2 Developers Addon adds the ability to edit lenses, copy lenses as
 * [Support](http://dtelepathy.zendesk.com/)
 
 == Changelog ==
+= 2.1.20130228 =
+* Modified lens edit and copy functionalities to check against `upload_files` capability instead of `edit_themes` for better Network installation compatibility.
+
 = 2.1.20130219 =
 * Updated version number to keep parity with core
 

@@ -74,6 +74,9 @@
     margin-top: 12px;
     margin-top: .75rem; }
 
+body.category-units .genesis-nav-menu #menu-item-60 a {
+  background: #ef4f4f !important; }
+
 .unit-stats {
   float: left;
   margin-right: 1%;

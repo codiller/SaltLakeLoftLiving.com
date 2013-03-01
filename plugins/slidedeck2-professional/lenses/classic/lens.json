@@ -24,7 +24,7 @@
             "height": 500
         }
     },
-    "variations": {},
+    "variations": false,
     "fonts": {
         "bitter": {
             "label": "Bitter",

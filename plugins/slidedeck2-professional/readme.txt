@@ -21,6 +21,9 @@ The SlideDeck 2 Developers Addon adds the ability to edit lenses, copy lenses as
 * [Support](http://dtelepathy.zendesk.com/)
 
 == Changelog ==
+= 2.1.20130228 =
+* Adjusting the Classic lens so it has no variations.
+
 = 2.1.20130219 =
 * Updated custom slide CSS for videos to fix an issue where the sd2-node-caption was showing up even though there was no content
 * Fixed an issue with the classic lens where it was possible to choose an incompatible slide transition

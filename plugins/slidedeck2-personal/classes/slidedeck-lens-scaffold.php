@@ -174,10 +174,16 @@ class SlideDeckLens_Scaffold {
                         'weight' => 30
                     );
                     
-                    if( isset( $options_model['Appearance']['lensVariations'] ) )
+                    if( isset( $options_model['Appearance']['lensVariations'] ) ){
                         $this->options_model['Appearance']['lensVariations'] = array_merge( $options_model['Appearance']['lensVariations'] , $lens_variations );
-                    else
+                    }else{
                         $this->options_model['Appearance']['lensVariations'] = $lens_variations;
+                    }
+
+                }
+                
+                if( isset( $lens['meta']['variations'] ) && $lens['meta']['variations'] == false ) {
+                    $this->options_model['Appearance']['lensVariations']['type'] = 'hidden';
                 }
             }
         }
@@ -399,7 +405,8 @@ class SlideDeckLens_Scaffold {
             if( isset( $this->lens['admin_script_url'] ) ) {
                 wp_register_script( "{$this->namespace}-lens-admin-js-{$this->lens['slug']}", $this->lens['admin_script_url'], array( 'jquery', "{$this->namespace}-admin" ), SLIDEDECK2_VERSION, true );
             }
-        }    }
+        }
+    }
     
     /**
      * SlideDeck Register Styles
