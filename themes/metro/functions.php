@@ -25,6 +25,7 @@ add_image_size( 'home-bottom', 150, 150, TRUE );
 add_image_size( 'home-middle', 336, 190, TRUE );
 add_image_size( 'home-top', 708, 400, TRUE );
 add_image_size( 'units', 708, 200, TRUE );
+add_image_size( 'gallery', 300, 300, TRUE );
 
 // Add support for custom background
 add_theme_support( 'custom-background', array( 'wp-head-callback' => '__return_false' ) );

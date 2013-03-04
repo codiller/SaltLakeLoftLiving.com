@@ -91,3 +91,8 @@ body.category-units .genesis-nav-menu #menu-item-60 a {
       width: 100%; } }
   .unit-stats h3 {
     border-bottom: #333333 2px solid; }
+
+#gallery-1 img {
+  border: none !important; }
+#gallery-1 .gallery-item {
+  margin: 0 !important; }
